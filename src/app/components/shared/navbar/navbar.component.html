@@ -1,0 +1,61 @@
+<header>
+    <a href="#!" class="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </a>
+    <a href="#" class="brand-logo">
+        <i class="fas fa-store-alt"></i>
+        <span>Danielitos</span>
+    </a>
+</header>
+<nav class="dashboard-nav-list">
+    <a [routerLink]="['home']" class="dashboard-nav-item">
+        <i class="fas fa-home"></i>Inicio
+    </a>
+    <div class='dashboard-nav-dropdown'>
+        <a href="#" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+            <i class="fas fa-hand-holding-usd"></i> Áreas de Ventas
+        </a>
+        <div class='dashboard-nav-dropdown-menu'>
+            <a [routerLink]="['sales']" class="dashboard-nav-dropdown-item">Registrar Venta</a>
+            <a href="#" class="dashboard-nav-dropdown-item">Buscar Producto</a>
+        </div>
+    </div>
+    <a href="#" class="dashboard-nav-item ">
+        <i class="fas fa-tachometer-alt"></i> Item 1
+    </a>
+    <a href="#" class="dashboard-nav-item">
+        <i class="fas fa-file-upload"></i> Item 2
+    </a>
+    <div class='dashboard-nav-dropdown'>
+        <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+            <i class="fas fa-users"></i> Scroll Menu 2
+        </a>
+        <div class='dashboard-nav-dropdown-menu'>
+            <a href="#" class="dashboard-nav-dropdown-item">Sub Item 1</a>
+            <a href="#" class="dashboard-nav-dropdown-item">Sub Item 2</a>
+            <a href="#" class="dashboard-nav-dropdown-item">Sub Item 3</a>
+            <a href="#" class="dashboard-nav-dropdown-item">Sub Item 4</a>
+            <a href="#" class="dashboard-nav-dropdown-item">Sub Item 5</a>
+        </div>
+    </div>
+    <div class='dashboard-nav-dropdown'>
+        <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+            <i class="fas fa-money-check-alt"></i> Scroll Menu 3
+        </a>
+        <div class='dashboard-nav-dropdown-menu'>
+            <a href="#" class="dashboard-nav-dropdown-item">Sub Item 1</a>
+            <a href="#" class="dashboard-nav-dropdown-item">Sub Item 2</a>
+            <a href="#" class="dashboard-nav-dropdown-item">Sub Item 3</a>
+        </div>
+    </div>
+    <a href="#" class="dashboard-nav-item">
+        <i class="fas fa-cogs"></i> Item 3
+    </a>
+    <a href="#" class="dashboard-nav-item">
+        <i class="fas fa-user"></i> Item 4
+    </a>
+    <div class="nav-item-divider"></div>
+    <a href="#" class="dashboard-nav-item">
+        <i class="fas fa-sign-out-alt"></i> Logout
+    </a>
+</nav>
